@@ -121,7 +121,7 @@ module.exports = {
   pwa: {},
 
   devServer: {
-    host: 'localhost',
+    host: '0.0.0.0',
     port: 8088, // 端口号
     https: false, // https:{type:Boolean}
     open: 'Google Chrome', // 配置自动启动浏览器  open: 'Google Chrome'-默认启动谷歌
