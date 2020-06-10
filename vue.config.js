@@ -36,8 +36,8 @@ module.exports = {
   css: {
     // 是否使用css分离插件 ExtractTextPlugin
     extract: IS_PROD,
-    requireModuleExtension:false,
-    // sourceMap: true,
+    // requireModuleExtension:false, 会导致第三方ui库样式不出来
+    sourceMap: true,
     // css预设器配置项
     loaderOptions: {
       postcss: {
